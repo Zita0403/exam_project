@@ -648,7 +648,7 @@ body {
                     justify-content: space-evenly;
                     align-items: center;  
                     width: 80%; 
-                    height: 400px;
+                    height: auto;
                     padding: 20px;
     
                     .special-treatments {
@@ -796,7 +796,7 @@ body {
                         display: grid;
     
                         p {
-                            font-size: 14px;
+                            font-size: 16px;
                         }
                     }
                 }

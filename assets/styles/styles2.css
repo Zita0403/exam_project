@@ -52,7 +52,7 @@ body div.first-nav .contact-info li {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
 }
 body div.first-nav .contact-info li:first-of-type {
@@ -220,7 +220,7 @@ body footer .footer-top .footer-navigation ul li {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px;
 }
 body footer .footer-top .footer-navigation .brands-icons {
@@ -266,7 +266,7 @@ body footer .footer-bottom p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 576px) {
@@ -541,7 +541,7 @@ body main section p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   padding: 0 30px;
 }
 body main section div {
@@ -605,7 +605,7 @@ body main section div img {
     text-align: justify;
     line-height: 2em;
     color: #4e3b2b;
-    font-size: 12px;
+    font-size: 16px;
     padding: 0 30px;
   }
   body main section div {

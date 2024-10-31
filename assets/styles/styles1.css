@@ -52,7 +52,7 @@ body div.first-nav .contact-info li {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
 }
 body div.first-nav .contact-info li:first-of-type {
@@ -220,7 +220,7 @@ body footer .footer-top .footer-navigation ul li {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px;
 }
 body footer .footer-top .footer-navigation .brands-icons {
@@ -266,7 +266,7 @@ body footer .footer-bottom p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 576px) {
@@ -599,7 +599,7 @@ body main .second-section > div div p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 body main .third-section {
@@ -658,7 +658,7 @@ body main .third-section article .content p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
 }
 body main .third-section .first-special-treatments {
   background-image: url(../images/tu-nelkuli-mezoterapia-xs.jpg);
@@ -779,7 +779,7 @@ body main .fifth-section .about-section .about-text p {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
 }
 body .modal {
   background-color: #F0CA96;
@@ -795,7 +795,7 @@ body .modal {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
 }
 body .modal .btns {
   margin-top: 30px;
@@ -815,7 +815,7 @@ body .modal .btns button {
   text-align: justify;
   line-height: 2em;
   color: #4e3b2b;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #F0CA96;
   border: none;
   border-radius: 20px;
@@ -880,7 +880,7 @@ body .modal .btns button:hover {
     text-align: justify;
     line-height: 2em;
     color: #4e3b2b;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   }
   body main .third-section article .special-treatments {
@@ -1040,7 +1040,7 @@ body .modal .btns button:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    height: 400px;
+    height: auto;
     padding: 20px;
   }
   body main .third-section article .special-treatments {
@@ -1145,7 +1145,7 @@ body .modal .btns button:hover {
     display: grid;
   }
   body main .second-section > div div p {
-    font-size: 14px;
+    font-size: 16px;
   }
   body main .third-section h2 {
     font-size: 22px;
