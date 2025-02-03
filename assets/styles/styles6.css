@@ -497,43 +497,42 @@ body {
   grid: "nav-area1" 30px "nav-area2" 50px "main-area" auto "footer-area" auto/100%;
 }
 body main {
-  padding: 40px 0;
   grid-area: main-area;
-  background-image: url(../images/facial-bg-1400x1400.jpg);
+  background-color: #B58456;
+  background-image: url(../images/facial-bg-1400x1200.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+  display: grid;
 }
-body main header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body main div {
+  margin: 0 40px;
+  padding: 1em;
+  max-width: 400px;
+  background-color: rgba(240, 202, 150, 0.7215686275);
 }
-body main header h1 {
+body main div a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  line-height: 2em;
+  color: #4e3b2b;
+  font-size: 16px;
+  text-decoration: none;
+}
+body main div a:hover {
+  text-decoration: underline;
+}
+body main div h1 {
   font-family: "Noto Serif Display", serif;
   font-weight: 400;
   font-style: normal;
   color: #4e3b2b;
   font-size: 24px;
+  text-align: center;
 }
-body main section {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
-  background-color: #B58456;
-  background-image: linear-gradient(to right, #935D38, #F1CA8C);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
-}
-body main section h3 {
+body main div h2 {
   font-family: "Noto Serif Display", serif;
   font-weight: 400;
   font-style: normal;
@@ -542,7 +541,7 @@ body main section h3 {
   font-size: 20px;
   text-align: center;
 }
-body main section p {
+body main div p {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -550,19 +549,15 @@ body main section p {
   line-height: 2em;
   color: #4e3b2b;
   font-size: 16px;
-  padding: 0 30px;
 }
-body main section div {
-  width: 350px;
-  height: 220px;
-  padding: 0 30px 20px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body main section div img {
-  height: 100%;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
+body main div ul li {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  line-height: 2em;
+  color: #4e3b2b;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 576px) {
@@ -588,46 +583,6 @@ body main section div img {
   body main {
     grid-area: main-area;
   }
-  body main section {
-    width: 90%;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 20px;
-    background-color: #B58456;
-    background-image: linear-gradient(to right, #935D38, #F1CA8C);
-  }
-  body main section h3 {
-    font-family: "Noto Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #4e3b2b;
-    font-size: 24px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 30px;
-  }
-  body main section p {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    line-height: 2em;
-    color: #4e3b2b;
-    font-size: 16px;
-    padding: 0 30px;
-  }
-  body main section div {
-    width: 400px;
-    height: 270px;
-    padding: 20px 30px 20px 30px;
-  }
-  body main section div img {
-    height: 100%;
-  }
-  body main section:hover {
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -636,4 +591,4 @@ body main section div img {
   body main {
     grid-area: main-area;
   }
-}/*# sourceMappingURL=styles2.css.map */
+}/*# sourceMappingURL=styles6.css.map */

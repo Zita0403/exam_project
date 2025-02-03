@@ -32,11 +32,18 @@ body {
             }
         }
 
+        h3 {
+            @include mainTitle ();
+            font-size: 20px;
+            text-align: center;
+        }
+
         form {
             @include text();
             font-size: 1rem;
             max-width: 400px;
             margin: 0 40px;
+            margin-bottom: 2em;
             padding: 1em;
             border: 1px solid $lightBg;
             background-color: $lightBgBlur;
@@ -54,12 +61,16 @@ body {
                     width: 100%;
                     padding: 0.5em;
                     box-sizing: border-box;
+                    border-radius: 0.5rem;
+                    border: none;
                 }
 
                 textarea {
                     width: 100%;
                     height: 150px;
                     resize: none;
+                    border: none;
+                    border-radius: 0.5rem;
                 }
             }
 

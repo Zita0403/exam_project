@@ -137,6 +137,7 @@ body {
                 width: 80%; 
                 height: auto;
                 padding: 20px;
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
 
                 .special-treatments {
                     margin: 10px 10px;
@@ -146,6 +147,10 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 10px; 
+                    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
                 }
 
                 h3 {
@@ -158,26 +163,12 @@ body {
                     height: auto;
                     background-color: $lightBg;
                     padding: 10px;
+                    text-align: center;
     
                     p {
                         @include text ();   
                     }
                 }
-            }
-
-            .first-special-treatments {
-                background-image: url(../images/tu-nelkuli-mezoterapia-xs.jpg);
-                @include bgImg ();
-            }
-
-            .second-special-treatments {
-                background-image: url(../images/alakformalo-cellulit-kezeles-xs.jpg);
-                @include bgImg ();
-            }
-
-            .third-special-treatments {
-                background-image: url(../images/lezeres-szortelenites-xs.jpg);
-                @include bgImg ();
             }
         }
 
@@ -293,7 +284,7 @@ body {
             justify-content: space-between;
             align-items: center;
 
-            .active {
+            .btn .accept {
                 border: 1px solid $darkBg;
                 border-radius: 20px; 
             }
@@ -395,17 +386,17 @@ body {
                     }
                 }
 
-                .first-special-treatments {
-                    background-image: url(../images/tu-nelkuli-mezoterapia-sm.jpg);
-                }
+                // .first-special-treatments {
+                //     background-image: url(../images/tu-nelkuli-mezoterapia-sm.jpg);
+                // }
     
-                .second-special-treatments {
-                    background-image: url(../images/alakformalo-cellulit-kezeles-sm.jpg);
-                }
+                // .second-special-treatments {
+                //     background-image: url(../images/alakformalo-cellulit-kezeles-sm.jpg);
+                // }
     
-                .third-special-treatments {
-                    background-image: url(../images/lezeres-szortelenites-sm.jpg);
-                }
+                // .third-special-treatments {
+                //     background-image: url(../images/lezeres-szortelenites-sm.jpg);
+                // }
             }
 
             .fourth-section {
@@ -495,7 +486,8 @@ body {
             }
 
             .second-section {
-                background-image: url(../images/second-section-bg-md.jpg);
+                // background-image: url(../images/second-section-bg-md.jpg);
+                background-image: url(../images/12886208_1920_1080_60fps.mp4);
 
                 > div {
 
@@ -513,17 +505,17 @@ body {
                     }
                 }
 
-                .first-special-treatments {
-                    background-image: url(../images/tu-nelkuli-mezoterapia-md.jpg);
-                }
+                // .first-special-treatments {
+                //     background-image: url(../images/tu-nelkuli-mezoterapia-md.jpg);
+                // }
     
-                .second-special-treatments {
-                    background-image: url(../images/alakformalo-cellulit-kezeles-md.jpg);
-                }
+                // .second-special-treatments {
+                //     background-image: url(../images/alakformalo-cellulit-kezeles-md.jpg);
+                // }
     
-                .third-special-treatments {
-                    background-image: url(../images/lezeres-szortelenites-md.jpg);
-                }
+                // .third-special-treatments {
+                //     background-image: url(../images/lezeres-szortelenites-md.jpg);
+                // }
             }
 
             .fourth-section {
@@ -853,6 +845,7 @@ body {
                     width: 100px;
                     height: 100px;
                     transition: transform 0.3s ease; 
+                    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
                 }
                 
                 .hover-effect:hover {

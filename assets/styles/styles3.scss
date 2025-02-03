@@ -57,18 +57,21 @@ body {
                         background-color: $lightBg;
                         width: 100%;
                         padding: 8px;
+                        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
                     }
                     
                     tr td:nth-child(1) {
                         background-color: $darkBg;
                         width: 70%;
                         padding: 8px;
+                        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
                     }
                     
                     tr td:nth-child(2) {
                         background-color: $primary;
                         width: 30%;
                         padding: 8px;
+                        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
                     }
                 }
 
