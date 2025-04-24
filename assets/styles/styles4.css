@@ -22,7 +22,9 @@ body .to-top {
   border-radius: 50%;
   background-color: #F1CA8C;
   background-image: linear-gradient(to right, rgba(240, 202, 150, 0.5333333333), rgba(181, 132, 86, 0.5843137255));
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 body .to-top .fa-chevron-up {
   color: #4e3b2b;

@@ -1,5 +1,15 @@
 <?php
 session_start();
+// Routing logika
+$requestUri = $_SERVER['REQUEST_URI'];
+$parsedUrl = parse_url($requestUri, PHP_URL_PATH);
+// BASE_URL-ből származó "gyökér" levágása
+$cleanPath = str_replace('/exam_project/', '', $parsedUrl);
+// Ha nem az index, és létezik ilyen fájl, töltsük be
+if (!empty($cleanPath) && $cleanPath !== 'index' && file_exists(__DIR__ . '/' . $cleanPath . '.php')) {
+    require __DIR__ . '/' . $cleanPath . '.php';
+    exit;
+}
 require_once __DIR__ . '/config/db.php'; //Adatbázis kapcsolat, 
 require_once __DIR__ . '/config/argument.php'; //Érvek szekció kezelésére szolgáló függvények
 require_once __DIR__ . '/config/treatment.php'; //Kiemelt kezelések szekció kezelésére szolgáló függvények 
@@ -74,25 +84,25 @@ require_once __DIR__ . '/includes/header.php';
     <div>
         <h2>Szolgáltatások</h2>
         <div class="services">
-            <a href="<?php print BASE_URL . '/pages/facial-treatment.php'; ?>">
+            <a href="<?php print BASE_URL . '/pages/facial-treatment'; ?>">
                 <div class="facial-treatments service hover-effect">
                     <img src="./assets/images/face-care.png" alt="Arckezelések">
                 </div>
                 <h3>Arckezelések</h3>
             </a>
-            <a href="<?php print BASE_URL . '/pages/body-treatment.php'; ?>">
+            <a href="<?php print BASE_URL . '/pages/body-treatment'; ?>">
                 <div class="body-treatments service hover-effect">
                     <img src="./assets/images/skin-care.png" alt="Testkezelések">
                 </div>
                 <h3>Testkezelések</h3>
             </a>
-            <a href="<?php print BASE_URL . '/pages/hair-removal.php'; ?>">
+            <a href="<?php print BASE_URL . '/pages/hair-removal'; ?>">
                 <div class="hair-removal service hover-effect">
                     <img src="./assets/images/hair-removal.png" alt="Szőreltávolítás">
                 </div>
                 <h3>Szőreltávolítás</h3>
             </a>
-            <a href="<?php print BASE_URL . '/pages/make-up.php'; ?>">
+            <a href="<?php print BASE_URL . '/pages/make-up'; ?>">
                 <div class="make-up service hover-effect">
                     <img src="./assets/images/make-up.png" alt="Sminkelés">
                 </div>

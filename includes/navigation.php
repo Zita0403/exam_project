@@ -4,7 +4,7 @@ require_once __DIR__ . '/../constans/constans.php'; // Constansok betöltése
 $navItems = [
     [
         'label' => 'Főoldal',
-        'url' => BASE_URL . 'index.php'
+        'url' => BASE_URL . 'index'
     ],
     [
         'label' => 'Szolgáltatások',
@@ -12,29 +12,29 @@ $navItems = [
         'submenu' => [
             [
                 'label' => 'Arckezelések',
-                'url' => BASE_URL . 'pages/facial-treatment.php'
+                'url' => BASE_URL . 'pages/facial-treatment'
             ],
             [
                 'label' => 'Testkezelések',
-                'url' => BASE_URL . 'pages/body-treatment.php'
+                'url' => BASE_URL . 'pages/body-treatment'
             ],
             [
                 'label' => 'Szőreltávolítás',
-                'url' => BASE_URL . 'pages/hair-removal.php'
+                'url' => BASE_URL . 'pages/hair-removal'
             ],
             [
                 'label' => 'Sminkelés',
-                'url' => BASE_URL . 'pages/make-up.php'
+                'url' => BASE_URL . 'pages/make-up'
             ]
         ]
     ],
     [
         'label' => 'Árlista',
-        'url' => BASE_URL . 'pages/price-list.php'
+        'url' => BASE_URL . 'pages/price-list'
     ],
     [
         'label' => 'Rólam',
-        'url' => BASE_URL . 'index.php#about'
+        'url' => BASE_URL . 'index#about'
     ],
     [
         'label' => 'Kapcsolat',
@@ -42,11 +42,11 @@ $navItems = [
     ],
     [
         'label' => 'Időpontfoglalás',
-        'url' => BASE_URL . 'pages/booking.php'
+        'url' => BASE_URL . 'pages/booking'
     ],
     [
         'label' => 'Admin',
-        'url' => BASE_URL . 'login_system/login.php'
+        'url' => BASE_URL . 'login_system/login'
     ]
 ];
 // Aktuális oldal lekérése, ellenőrzés
